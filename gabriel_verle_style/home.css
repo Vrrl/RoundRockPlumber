@@ -1,0 +1,79 @@
+#home{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 840px;
+  background-image: url("../img/homebg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home > *{
+
+  margin-inline: auto;  
+}
+
+#home > .logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 94px;
+}
+
+#home > .logo > img{
+  width: 80px;
+  height: 87px;
+  margin-right: 14px;
+}
+
+#home > .logo .name{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+#home > .logo .name p{
+  font-size: 32px;
+  letter-spacing: 0.7em;
+  margin-top: -10px;
+}
+
+#home > h1{
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  width: 523px;
+  margin-bottom: 30px;
+}
+
+#home > p{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  width: 520px;
+  margin-bottom: 27px;
+}
+
+#home > .icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#home > .icons > .icon{
+  display: flex;
+  flex-direction: column;
+  margin-inline: 65px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+}
